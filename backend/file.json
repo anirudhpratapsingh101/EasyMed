@@ -1,0 +1,143 @@
+[
+  {
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "password": "$2a$12$KIX/lR.n8syoWh6Hh2Q0A.HAd/3X1L/hxHclF.6GRT0MN9bFkFs3m",
+    "phone": "9876543210",
+    "location": { "type": "Point", "coordinates": [77.1025, 28.7041] },
+    "pharmacyName": "MediCare Pharmacy",
+    "medicines": [
+      {
+        "name": "Paracetamol",
+        "price": 10,
+        "quantity": 5,
+        "expiryDate": "2025-12-31T00:00:00Z"
+      },
+      {
+        "name": "Ibuprofen",
+        "price": 15,
+        "quantity": 2,
+        "expiryDate": "2026-03-15T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "name": "Alice Smith",
+    "email": "alice@example.com",
+    "password": "$2a$12$KIX/lR.n8syoWh6Hh2Q0A.HAd/3X1L/hxHclF.6GRT0MN9bFkFs3m",
+    "phone": "9876543211",
+    "location": { "type": "Point", "coordinates": [77.209, 28.6139] },
+    "pharmacyName": "City Pharmacy",
+    "medicines": []
+  },
+  {
+    "name": "Bob Johnson",
+    "email": "bob@example.com",
+    "password": "$2a$12$KIX/lR.n8syoWh6Hh2Q0A.HAd/3X1L/hxHclF.6GRT0MN9bFkFs3m",
+    "phone": "9876543212",
+    "location": { "type": "Point", "coordinates": [77.5946, 12.9716] },
+    "pharmacyName": "Green Meds",
+    "medicines": [
+      {
+        "name": "Aspirin",
+        "price": 20,
+        "quantity": 8,
+        "expiryDate": "2025-09-20T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "name": "Emily Davis",
+    "email": "emily@example.com",
+    "password": "$2a$12$KIX/lR.n8syoWh6Hh2Q0A.HAd/3X1L/hxHclF.6GRT0MN9bFkFs3m",
+    "phone": "9876543213",
+    "location": { "type": "Point", "coordinates": [72.8777, 19.076] },
+    "pharmacyName": "MediTrust",
+    "medicines": [
+      {
+        "name": "Antibiotic",
+        "price": 50,
+        "quantity": 3,
+        "expiryDate": "2025-08-10T00:00:00Z"
+      },
+      {
+        "name": "Cough Syrup",
+        "price": 18,
+        "quantity": 4,
+        "expiryDate": "2026-05-10T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "name": "Michael Brown",
+    "email": "michael@example.com",
+    "password": "$2a$12$KIX/lR.n8syoWh6Hh2Q0A.HAd/3X1L/hxHclF.6GRT0MN9bFkFs3m",
+    "phone": "9876543214",
+    "location": { "type": "Point", "coordinates": [80.2707, 13.0827] },
+    "pharmacyName": "CarePlus",
+    "medicines": []
+  },
+  {
+    "name": "Sophia Martinez",
+    "email": "sophia@example.com",
+    "password": "$2a$12$KIX/lR.n8syoWh6Hh2Q0A.HAd/3X1L/hxHclF.6GRT0MN9bFkFs3m",
+    "phone": "9876543215",
+    "location": { "type": "Point", "coordinates": [75.7873, 26.9124] },
+    "pharmacyName": "MediHelp",
+    "medicines": [
+      {
+        "name": "Painkiller",
+        "price": 25,
+        "quantity": 6,
+        "expiryDate": "2026-04-05T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "name": "David Wilson",
+    "email": "david@example.com",
+    "password": "$2a$12$KIX/lR.n8syoWh6Hh2Q0A.HAd/3X1L/hxHclF.6GRT0MN9bFkFs3m",
+    "phone": "9876543216",
+    "location": { "type": "Point", "coordinates": [88.3639, 22.5726] },
+    "pharmacyName": "PharmaWorld",
+    "medicines": [
+      {
+        "name": "Cold Syrup",
+        "price": 40,
+        "quantity": 4,
+        "expiryDate": "2025-11-15T00:00:00Z"
+      },
+      {
+        "name": "Vitamin D",
+        "price": 35,
+        "quantity": 10,
+        "expiryDate": "2026-01-01T00:00:00Z"
+      }
+    ]
+  },
+  {
+    "name": "Olivia Taylor",
+    "email": "olivia@example.com",
+    "password": "$2a$12$KIX/lR.n8syoWh6Hh2Q0A.HAd/3X1L/hxHclF.6GRT0MN9bFkFs3m",
+    "phone": "9876543217",
+    "location": { "type": "Point", "coordinates": [78.9629, 20.5937] },
+    "pharmacyName": "WellCare",
+    "medicines": []
+  },
+  {
+    "name": "James Anderson",
+    "email": "james@example.com",
+    "password": "$2a$12$KIX/lR.n8syoWh6Hh2Q0A.HAd/3X1L/hxHclF.6GRT0MN9bFkFs3m",
+    "phone": "9876543218",
+    "location": { "type": "Point", "coordinates": [85.324, 27.7172] },
+    "pharmacyName": "HealthFirst",
+    "medicines": [
+      {
+        "name": "Blood Pressure Med",
+        "price": 100,
+        "quantity": 2,
+        "expiryDate": "2026-09-30T00:00:00Z"
+      }
+    ]
+  }
+]
