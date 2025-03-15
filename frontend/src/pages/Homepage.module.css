@@ -1,0 +1,31 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* About Section - Full Width */
+.about {
+  background-color: #f8f9fa;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden; /* Prevents any accidental overflow */
+}
+
+.about h1 {
+  color: #2c3e50;
+  font-size: 3rem; /* Increased for a bold impact */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.about p {
+  color: #555;
+  font-size: 1.5rem; /* Slightly smaller than the heading */
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
