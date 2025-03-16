@@ -6,7 +6,7 @@ import L from "leaflet";
 import styles from "./Dashboard.module.css";
 import Navbar from "../components/Navbar";
 import PharmacyPopUp from "../components/PharmacyPopUp"; // Import the pop-up component
-import { AuthContext } from "../context/AuthContext";
+import { AuthContext } from "../context/authContext";
 
 const Dashboard = () => {
   const [medicines, setMedicines] = useState("");
