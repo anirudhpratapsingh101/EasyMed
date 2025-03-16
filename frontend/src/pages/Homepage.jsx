@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Features from "../components/Features";
 import Reviews from "../components/Reviews";
-import styles from "./HomePage.module.css";
+import styles from "./Homepage.module.css";
 
 const HomePage = () => {
   return (
