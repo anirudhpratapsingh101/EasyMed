@@ -53,7 +53,7 @@ const Profile = () => {
       const token = localStorage.getItem("token");
 
       const response = await axios.patch(
-        "http://localhost:8000/api/users/updateMe",
+        `${import.meta.env.VITE_BACKEND_BASEURL}/api/users/updateMe`,
         formData,
         {
           headers: { Authorization: `Bearer ${token}` },

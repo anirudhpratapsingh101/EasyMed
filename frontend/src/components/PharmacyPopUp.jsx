@@ -14,7 +14,7 @@ export default function PharmacyPopUp({ pharmacy, onClose }) {
       try {
         console.log("Entered Effect");
         const response = await axios.get(
-          `http://localhost:8000/api/users/${pharmacy._id}`
+          `${import.meta.env.VITE_BACKEND_BASEURL}/api/users/${pharmacy._id}`
         );
         setOwnerDetails(response.data.data);
         console.log("Response Data: ", response.data.data);

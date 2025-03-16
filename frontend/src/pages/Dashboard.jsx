@@ -40,11 +40,14 @@ const Dashboard = () => {
       alert("Please enable location access!");
       return;
     }
-
+    const token = localStorage.getItem("token"); // Example of retrieving token
     try {
       const response = await axios.get(
-        "http://localhost:8000/api/users/medicines",
+        `${import.meta.env.VITE_BACKEND_BASEURL}/api/users/medicines`,
         {
+          headers: {
+            Authorization: `Bearer ${token}`, // Include the token for authorization
+          },
           params: {
             longitude: userLocation.longitude,
             latitude: userLocation.latitude,

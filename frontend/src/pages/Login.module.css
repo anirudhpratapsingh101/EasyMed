@@ -1,9 +1,9 @@
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: first baseline;
   height: 100vh;
-  background-color: #f4f4f4;
+  background: radial-gradient(circle at top, #d6d6d6, #3e5b7e);
 }
 
 .loginBox {
@@ -13,6 +13,7 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   width: 300px;
   text-align: center;
+  margin-top: 7rem;
 }
 
 h2 {

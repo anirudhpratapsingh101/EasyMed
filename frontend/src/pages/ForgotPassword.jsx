@@ -23,7 +23,7 @@ const ForgotPassword = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/users/forgotPassword",
+        `${import.meta.env.VITE_BACKEND_BASEURL}/api/users/forgotPassword`,
         { email }
       );
       setMessage(response.data.message);
@@ -61,7 +61,9 @@ const ForgotPassword = () => {
 
     try {
       const response = await axios.patch(
-        `http://localhost:8000/api/users/resetPassword/${token}`,
+        `${
+          import.meta.env.VITE_BACKEND_BASEURL
+        }/api/users/resetPassword/${token}`,
         {
           password: newPassword,
           passwordConfirm: confirmPassword,

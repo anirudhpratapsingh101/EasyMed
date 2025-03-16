@@ -78,7 +78,7 @@ const SignupPage = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/users/signup",
+        `${import.meta.env.VITE_BACKEND_BASEURL}/api/users/signup`,
         {
           ...formData,
           pharmacyName: formData.pharmacyName || null,

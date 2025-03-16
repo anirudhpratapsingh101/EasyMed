@@ -61,11 +61,12 @@
 }
 .listContainer {
   width: 40%;
-  height: 100%;
+  padding-bottom: 1rem;
   max-height: 100%;
   padding-top: 1rem;
   overflow: hidden;
   border-radius: 1rem;
+  background-color: white;
 }
 .pharmacyList {
   max-height: 100%;
@@ -81,6 +82,7 @@
 }
 .pharmacyCard {
   transition: all 0.3s ease;
+  box-sizing: border-box;
 }
 .pharmacyCard:hover {
   scale: 1.05;

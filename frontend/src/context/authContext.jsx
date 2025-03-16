@@ -23,10 +23,13 @@ export const AuthProvider = ({ children }) => {
 
   // Login Function
   const login = async (email, password) => {
-    const response = await axios.post("http://localhost:8000/api/users/login", {
-      email,
-      password,
-    });
+    const response = await axios.post(
+      `${import.meta.env.VITE_BACKEND_BASEURL}/api/users/login`,
+      {
+        email,
+        password,
+      }
+    );
 
     const { token, user } = response.data;
 
