@@ -7,26 +7,54 @@
 
 /* About Section - Full Width */
 .about {
-  background-color: #f8f9fa39;
   backdrop-filter: blur(2px);
   padding-top: 60px;
   padding-bottom: 60px;
   width: 100%;
   text-align: center;
+  min-height: 70vh; /* Ensures the section takes full viewport height */
   overflow: hidden; /* Prevents any accidental overflow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about h1 {
-  color: #2c3e50;
+  color: #f0f3f6;
   font-size: 3rem; /* Increased for a bold impact */
   font-weight: bold;
   margin-bottom: 15px;
 }
 
 .about p {
-  color: #555;
+  color: #d7d7d7;
   font-size: 1.5rem; /* Slightly smaller than the heading */
   line-height: 1.6;
   max-width: 800px;
   margin: 0 auto;
+}
+
+.heading {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.headingVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.paragraph {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s,
+    transform 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+}
+
+.paragraphVisible {
+  opacity: 1;
+  transform: translateY(0);
 }

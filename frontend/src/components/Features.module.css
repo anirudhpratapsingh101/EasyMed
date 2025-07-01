@@ -1,15 +1,20 @@
 .features {
   text-align: center;
   padding: 50px;
-  background-color: #f8f9fa;
+  background-color: #efeeee13;
   border-radius: 10px;
   max-width: 100%;
+  backdrop-filter: blur(20px);
   margin: 20px auto;
+  min-height: 90vh;
+}
+.container {
+  margin-top: 8rem;
 }
 
 .features h2 {
   font-size: 2rem;
-  color: #2c3e50;
+  color: #c5d0da;
   margin-bottom: 20px;
 }
 
@@ -49,4 +54,64 @@
   color: #555;
   font-size: 1rem;
   line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .features {
+    padding: 24px 8px;
+    border-radius: 0;
+  }
+
+  .features h2 {
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+  }
+
+  .featureGrid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .featureCard {
+    padding: 14px 8px;
+    border-radius: 8px;
+  }
+
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+
+  .featureCard h3 {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+  }
+
+  .featureCard p {
+    font-size: 0.95rem;
+  }
+}
+
+@keyframes featureFloatUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.featureFloat {
+  opacity: 0;
+  transform: translateY(40px);
+  pointer-events: none;
+}
+
+.featureFloatVisible {
+  opacity: 1;
+  transform: translateY(0);
+  animation: featureFloatUp 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: auto;
 }
