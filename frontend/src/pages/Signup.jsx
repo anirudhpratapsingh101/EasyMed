@@ -112,7 +112,6 @@ const SignupPage = () => {
 
   return (
     <>
-      <Navbar />
       <div className={styles.signupContainer}>
         {" "}
         {/* ✅ Corrected class usage */}

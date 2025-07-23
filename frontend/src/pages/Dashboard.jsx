@@ -82,7 +82,6 @@ const Dashboard = () => {
 
   return (
     <>
-      <Navbar />
       <div className={styles.dashboard}>
         {/* Welcome Message */}
         <header className={styles.header}>
@@ -95,12 +94,35 @@ const Dashboard = () => {
           <>
             {/* Search Section */}
             <section className={styles.searchSection}>
+              {/* Medicine Names Label */}
+              <label
+                style={{
+                  alignSelf: "",
+                  marginBottom: "8px",
+                  fontWeight: 500,
+                  color: "white",
+                }}
+              >
+                Medicine Names
+              </label>
               <input
                 type="text"
                 placeholder="Enter medicine names (comma-separated)"
                 value={medicines}
                 onChange={(e) => setMedicines(e.target.value)}
               />
+              {/* Distance Label */}
+              <label
+                style={{
+                  alignSelf: "",
+                  marginBottom: "8px",
+                  marginTop: "12px",
+                  fontWeight: 500,
+                  color: "white",
+                }}
+              >
+                Maximum Distance (km)
+              </label>
               <input
                 type="number"
                 placeholder="Distance (km)"

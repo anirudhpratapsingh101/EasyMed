@@ -80,7 +80,6 @@ const ForgotPassword = () => {
 
   return (
     <>
-      <Navbar />
       <div className={styles.container}>
         <div className={styles.box}>
           {step === 1 && (

@@ -33,7 +33,7 @@ const Login = () => {
 
   return (
     <>
-      <Navbar />
+      
       <div className={styles.container}>
         <div className={styles.loginBox}>
           <h2>Login</h2>

@@ -94,7 +94,6 @@ const Profile = () => {
 
   return (
     <>
-      <Navbar />
       <div className={styles.profileContainer}>
         <h2>Profile</h2>
 
