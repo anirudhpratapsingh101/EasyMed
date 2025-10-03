@@ -79,11 +79,13 @@
   border-radius: 1rem;
   background-color: rgba(78, 71, 71, 0.136);
   backdrop-filter: blur(40px);
+  overflow-y: auto;
 }
 .listContainer h2 {
   color: #cfdfef;
   font-size: 1.8rem;
   margin-bottom: 1rem;
+  overflow-y: auto;
 }
 .pharmacyList {
   max-height: 100%;

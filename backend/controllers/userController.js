@@ -99,7 +99,9 @@ exports.updateMedicines = async (req, res) => {
 };
 exports.getMedicines = async (req, res) => {
   try {
+    console.log("🔹 Medicines route hit!", req.query);
     const { longitude, latitude, maxDistance, medicines } = req.query;
+    console.log("Auth header:", req.headers.authorization);
 
     // Validate required parameters
     if (!longitude || !latitude || !maxDistance) {
