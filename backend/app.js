@@ -23,7 +23,7 @@ const DB = process.env.DATABASE_URL;
 // Connect to MongoDB
 mongoose.connect(DB).then(async (conn) => {
   console.log("DB connected ");
-  await seedUsers(); // Seed the database with users and pharmacies
+  // await seedUsers(); // Seed the database with users and pharmacies
 
   const dbName = conn.connection.name;
 });
